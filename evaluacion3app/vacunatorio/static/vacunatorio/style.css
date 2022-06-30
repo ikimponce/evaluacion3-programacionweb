@@ -1,0 +1,47 @@
+body{
+    background-color: #111010;
+}
+h1{
+    text-align: center;
+    color: rgb(233, 233, 233);
+}
+label{
+    color: rgb(160,160,160);
+}
+form button a{
+    color: white;
+    text-decoration: none;
+}
+.posicion{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.posicionindex{
+    padding-top: 15%;
+}
+div a{
+    text-align: center;
+}
+.boxbuscar{
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+    padding-left: 10px;
+}
+div button a{
+    color: white;
+    text-decoration: none;
+}
+form table{
+    width: 100%;
+    color: rgb(179, 86, 0);
+}
+form table thead th{
+    color: white;
+}
+form table tr td{
+    color: rgb(145, 145, 145);
+}
+.menu{
+    text-align: center;
+}

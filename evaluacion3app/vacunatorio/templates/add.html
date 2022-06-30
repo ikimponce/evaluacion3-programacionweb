@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- BOOTSTRAPS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/vacunatorio/style.css">
+</head>
+<body>
+    <div class="container"><br><br><br>
+        <h1>INGRESAR PACIENTE</h1>
+        <form method="get" action="/addaction/" class="posicion">
+            <label>Rut</label>
+            <input type="text" name="txt_rut" class="form-control" required><br>
+            <label>Nombre</label>
+            <input type="text" name="txt_nombre" class="form-control" required><br>
+            <label>Apellido paterno</label>
+            <input type="text" name="txt_apepat" class="form-control" required><br>
+            <label>Apellido materno</label>
+            <input type="text" name="txt_apemat" class="form-control" required><br>
+            <label>Edad</label>
+            <input type="number" name="txt_edad" class="form-control" required><br>
+            <label>Nombre vacuna</label>
+            <select name="txt_nombre_vacuna" class="form-control">
+                <option value="ninguna">--Ninguna</option>
+                <option value="pfizer">Pfizer</option>
+                <option value="moderna">Moderna</option>
+                <option value="coronaVac">CoronaVac</option>
+                <option value="cansino">Cansino</option>
+            </select><br>
+            <label>Fecha</label>
+            <input type="text" name="txt_fecha" class="form-control" required><br>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button type="submit" class="btn btn-success me-md-2"> Ingresar </button>
+                <button class="btn btn-warning"><a href="/index/">Volver</a></button>
+            </div><br><br><br><br>
+        
+        </form>
+    </div>
+    <!-- BOOTSTRAPS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
