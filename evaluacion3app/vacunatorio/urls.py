@@ -2,7 +2,9 @@ from django.urls import path
 from vacunatorio import views
 
 urlpatterns =[
+    path('',views.index),
     path('index/',views.index),
+
     path('list/' ,views.list),
     path('listaction/',views.listaction),
     path('search/',views.search),
